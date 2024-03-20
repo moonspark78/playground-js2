@@ -1,3 +1,4 @@
+// inverser une chaine de caractère
 //let paragraphe = "Le développement web est une compétence essentielle pour les programmeurs modernes.";
 //let tes = paragraphe.split(" ");
 //let chaine = tes.reverse();
