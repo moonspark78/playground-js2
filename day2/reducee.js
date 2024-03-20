@@ -38,3 +38,25 @@ const courtMot =  words.reduce((acc,cur) =>{
     return acc.length > cur.length ? cur : acc;
 },words[0])
 console.log(courtMot);
+
+// le plus jeune de la liste
+const people= [{name: 'John', age: 19},
+{name: 'tian', age: 54},
+{name: 'marc', age: 24},
+{name: 'alban', age: 7},
+{name: 'zoro', age: 11},]
+
+const plusJeune = people.reduce((acc,cur) =>{
+    return acc.age > cur.age ? cur : acc
+},people[0])
+console.log(plusJeune);
+
+//---- transformer un tableau en une chaine
+const stringsArray = ["apple", "banana", "orange", "grape", "pineapple"];
+const chaine = stringsArray.reduce((acc, cur) =>{
+    return acc+" " + cur
+},)
+console.log(chaine);
+
+const chaine2 = stringsArray.join(" ")
+console.log(chaine2);
